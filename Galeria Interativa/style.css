@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+body {
+    background: #f5f5f5;
+    background-image: url("https://seattlerefined.com/resources/media/7f4b7e21-321d-4fe5-a5ea-8bf86ff0eeac-full16x9_OriginalRachaelJones_multnomahfalls.jpg?1596489883993");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+/* HEADER */
+header {
+    background: #00000000;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: rgb(0, 0, 0);
+    margin: 10px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* ASIDE */
+aside {
+    float: right;
+    width: 23%;
+    background: #dddddd00;
+    padding: -11px;
+    margin: 2px;
+    border-radius: 10px;
+}
+
+aside ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+aside li {
+    padding: 5px;
+}
+
+/* GALERIA */
+.galeria {
+    width: 75%;
+    float: left;
+    background: rgba(0, 0, 0, 0);
+    padding: 20px;
+    
+}
+
+
+/* COLUNAS */
+.coluna {
+    width: 30%;
+    float: left;
+    margin: 1.5%;
+}
+
+/* CAIXA DAS IMAGENS */
+.imagem {
+    background: #fafafa00;
+    padding: 10px;
+    border: 2px solid #000000;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* IMAGEM */
+.imagem img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+}
+
+/* HOVER */
+.imagem:hover {
+    transform: scale(1.05);
+    border-color: #555;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+}
+
+/* CLEAR FLOAT */
+.clear {
+    clear: both;
+}
+
+/* FOOTER */
+footer {
+    background: #000000;
+    color: white;
+    text-align: center;
+    padding: 26px;
+    margin-top: 15px;
+}
